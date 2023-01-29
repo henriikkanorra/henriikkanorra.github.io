@@ -1,0 +1,65 @@
+body {
+    background-color: #F1EFE7;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #89897B;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Arima Madurai', cursive;
+}
+
+nav {
+    border: solid;
+}
+
+.navigation {
+    background-color: #80a583;
+    border-radius: 50px;
+    height: 90px;
+    width: 50%;
+}
+.navigation button {
+    border-radius: 25px;
+}
+
+.middle-section {
+    border-style: solid;
+    height: 800px;
+    margin-top: 20px;
+}
+
+#logo {
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+
+.buttons {
+    border: solid;
+    margin-top: 40px;;
+}
+
+#about-button {
+   
+    border-radius: 25px;
+    background-color: #505048;
+    color:#F1EFE7;
+    font-size: 20px;
+    
+}
+
+#hireme-button {
+   
+    border-radius: 25px;
+    background-color: #80a583;
+    color:#F1EFE7;
+    font-size: 20px;
+}
