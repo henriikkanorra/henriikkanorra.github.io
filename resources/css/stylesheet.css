@@ -42,8 +42,8 @@ h2 {
 .navigation {
     background-color: #80a583;
     border-radius: 50px;
-    height: 70px;
-    width: 50%;
+    height: 60px;
+    width: 40%;
     /* holy flex quadrupple */
     display: flex;
     flex-direction: row;
@@ -81,8 +81,9 @@ h2 {
 
 }
 
-.buttons {
+.hero-buttons {
     border: solid;
+    margin: 5px; 
 }
 
 #about-button {
@@ -100,4 +101,39 @@ h2 {
     background-color: #80a583;
     color:#F1EFE7;
     font-size: 20px;
+}
+
+
+.aboutme-container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#portrait {
+    width: 300px;
+    height: auto;
+    
+}
+
+.aboutme-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.photo {
+    border-radius: 9999px;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
