@@ -34,6 +34,7 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 15px;
+    color: #89897B
 }
 
 
@@ -48,10 +49,14 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .navigation button {
     border-radius: 25px;
     height:fit-content;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #F1EFE7;
+    border: none;
 }
 
 .middle-section {
@@ -71,7 +76,7 @@ h2 {
 #typed-out {
     overflow: hidden;
     width: 0;
-    animation: typing 2.5s forwards;
+    animation: typing 3s forwards;
 }
 
 @keyframes typing {
@@ -88,15 +93,20 @@ h2 {
 }
 
 .hero-buttons {
-    margin: 5px; 
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #about-button {
-   
     border-radius: 25px;
     background-color: #505048;
     color:#F1EFE7;
     font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
     
 }
 
@@ -106,6 +116,8 @@ h2 {
     background-color: #80a583;
     color:#F1EFE7;
     font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
 }
 
 
