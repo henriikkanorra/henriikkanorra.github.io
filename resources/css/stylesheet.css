@@ -39,7 +39,7 @@ h2 {
 
 
 .navigation {
-    background-color: #80a583;
+    background-color: #688462;
     border-radius: 50px;
     height: 60px;
     width: 40%;
@@ -98,7 +98,7 @@ h2 {
 
 #about-button {
     border-radius: 25px;
-    background-color: #5a7b81;
+    background-color: #688462;
     color:#F1EFE7;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -109,8 +109,8 @@ h2 {
 #hireme-button {
    
     border-radius: 25px;
-    background-color: #80a583;
-    color:#F1EFE7;
+    background-color: #f9f4bd;
+    color: #89897B;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border: none;
@@ -159,7 +159,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c9dfd6;
+    /* background-color: #c9dfd6; */
+    background-color: #d1c9bc;
     height: 200px;
 }
 
@@ -202,13 +203,14 @@ h2 {
 .project1,
 .project2,
 .project3 {
-    border: solid #89897B;
+    /* border: solid #89897B; */
     border-radius: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 550px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07), 0 6px 20px 0 rgba(0,0,0,0.07);
 }
 
 .project-text {
@@ -220,7 +222,7 @@ h2 {
 
 .learn-more-button {
     border-radius: 25px;
-    background-color: #5a7b81;
+    background-color: #688462;
     color:#F1EFE7;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -232,26 +234,43 @@ h2 {
 
 .contact-container {
     border: solid;
+    margin-bottom: 40px;
 }
 
 #contact-sub {
-    border: solid red;
     margin: 0;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.contact-text {
+.sub-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contact-text p {
-    border: solid;
     margin: 0;
 }
 
-.contact-form {
-    border: solid;
+.contact-content {
+    /* border: solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
+.contact-text {
+    border-right: solid #505048;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-info {
+    /* border: solid orange; */
+    width: 250px;
+    padding-left: 20px;
+}
