@@ -59,6 +59,8 @@ h2 {
     border: none;
 }
 
+/* HERO SECTION */
+
 .middle-section {
     display: flex;
     flex-direction: column;
@@ -67,11 +69,9 @@ h2 {
     height: 100vh;
 }
 
-
 .name {
     display: inline-block;
 }
-
 
 #typed-out {
     overflow: hidden;
@@ -82,12 +82,11 @@ h2 {
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
 
 #logo {
     display: block;
 }
-
 
 .hero-buttons {
     margin-top: 10px;
@@ -117,6 +116,7 @@ h2 {
     border: none;
 }
 
+/* ABOUT ME SECTION */
 
 .aboutme-container {
     display:flex;
@@ -128,7 +128,6 @@ h2 {
 #portrait {
     width: 300px;
     height: auto;
-    
 }
 
 .aboutme-content {
@@ -153,6 +152,9 @@ h2 {
     justify-content: center;
 }
 
+
+/* SKILLS SECTION */
+
 .skills-container {
     display: flex;
     flex-direction: column;
@@ -160,8 +162,6 @@ h2 {
     background-color: #c9dfd6;
     height: 200px;
 }
-
-
 
 .skills-content {
     display: flex;
@@ -172,6 +172,7 @@ h2 {
     width: 100%;
 }
 
+/* PROJECTS SECTION */
 
 .projects-container {
     display: flex;
@@ -193,6 +194,27 @@ h2 {
 
 .project-photo {
     height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.project1,
+.project2,
+.project3 {
+    border: solid #89897B;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 65%;
 }
 
 .learn-more-button {
@@ -205,76 +227,7 @@ h2 {
     width: 200px;
 }
 
-
-.project1 {
-    border: solid #89897B;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 550px;
-}
-
-.project1-text {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 65%;
-}
-
-.project1 img {
-    padding: 20px;
-    border-radius: 40px;
-}
-
-.project2 {
-    border: solid #89897B;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 550px;
-}
-
-.project2-text {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 65%;
-}
-
-.project2 img {
-    padding: 20px;
-    border-radius: 40px;
-}
-
-
-.project3 {
-    border: solid #89897B;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 550px;
-}
-
-.project3-text {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 65%;
-}
-
-.project3 img {
-    padding: 20px;
-    border-radius: 40px;
-}
-
-
-
+/* CONTACT SECTION */
 
 .contact-container {
     border: solid;
