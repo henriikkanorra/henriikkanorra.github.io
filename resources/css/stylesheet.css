@@ -28,6 +28,8 @@ h2 {
     border-radius: 50%;
     background-color: #89897B;
     color: #F1EFE7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07), 0 6px 20px 0 rgba(0,0,0,0.07);   
+    transition: 150ms;
 }
 
 .fa-linkedin-in:hover {
@@ -35,9 +37,9 @@ h2 {
     color: #ffffff;
 }
 
+
 .fa-instagram:hover {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     color: #ffffff;
 }
 
@@ -64,7 +66,7 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 15px;
-    color: #89897B
+    color: #89897B;
 }
 
 .navigation {
@@ -72,17 +74,18 @@ h2 {
     border-radius: 50px;
     height: 60px;
     width: 40%;
-    /* holy flex quadrupple */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin-right: 15px;
     margin-top: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07), 0 6px 20px 0 rgba(0,0,0,0.07);
 }
+
 .navigation button {
     border-radius: 25px;
-    height:fit-content;
+    height: fit-content;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #F1EFE7;
     border: none;
@@ -90,7 +93,14 @@ h2 {
     color: #89897B;
     letter-spacing: 3px;
     font-weight: 500;
-    padding: 5px 10px;
+    padding: 7px 12px;
+    transition: 150ms;
+}
+
+.navigation button:hover{
+    cursor: pointer; 
+    background-color: #89897B;
+    color: #F1EFE7
 }
 
 /* HERO SECTION */
@@ -128,6 +138,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    transition: 150ms;
 }
 
 #about-button {
@@ -139,7 +150,13 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     font-weight: 500;
-    padding: 5px 10px;
+    padding: 7px 12px;
+}
+
+#about-button:hover {
+    cursor: pointer;
+    background-color: #89897B;
+    color: #F1EFE7;
 }
 
 #hireme-button {
@@ -151,16 +168,30 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     font-weight: 500;
-    padding: 5px 10px;
+    padding: 7px 12px;
 }
 
+#hireme-button:hover {
+    cursor: pointer;
+    background-color: #89897B;
+    color: #F1EFE7;
+}
+
+
 /* ABOUT ME SECTION */
+
+#about {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .aboutme-container {
     display:flex;
     flex-direction: column;
     align-items:center;
-    height: 50vh;
 }
 
 #portrait {
@@ -193,6 +224,10 @@ h2 {
 
 /* SKILLS SECTION */
 
+#skills {
+    height: 20vh;
+}
+
 .skills-container {
     display: flex;
     flex-direction: column;
@@ -213,6 +248,10 @@ h2 {
 
 /* PROJECTS SECTION */
 
+#projects {
+    height: 100vh;
+}
+
 h4,
 .learn-more-button {
     font-family: 'Montserrat', sans-serif;
@@ -221,10 +260,10 @@ h4,
     font-weight: 500;
 }
 
+
 .projects-container {
     display: flex;
     flex-direction: column;
-    height: 80vh;
 }
 
 #projects-sub {
@@ -277,8 +316,12 @@ h4,
 
 /* CONTACT SECTION */
 
-.contact-container {
-    height: 60vh;
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact-sub {
@@ -326,20 +369,22 @@ h4,
 
 #email {
     text-decoration: none;
-    padding: 5px;
-    color: black;
-    background-color:#f9f4bd;
-    border-radius: 40px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    font-weight: 500;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07), 0 6px 20px 0 rgba(0,0,0,0.07);
-    padding: 5px 10px;
+    padding: 15px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #f9f4bd;
+    color: #89897B;
 }
+
 
 #email:hover, #email:active {
     background-color: #89897B;
-  }
+    color: #ffffff;
+}
 
 .social-media {
     display: flex;
