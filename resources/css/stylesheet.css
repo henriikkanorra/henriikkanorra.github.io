@@ -120,7 +120,7 @@ h2 {
 #typed-out {
     overflow: hidden;
     width: 0;
-    animation: typing 3s forwards;
+    animation: typing 4s forwards;
 }
 
 @keyframes typing {
@@ -398,3 +398,4 @@ h4,
     justify-content: space-evenly;
     width: 100%;
 }
+
