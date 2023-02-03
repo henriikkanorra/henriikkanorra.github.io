@@ -180,7 +180,7 @@ h2 {
 /* ABOUT ME SECTION */
 
 #about {
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +224,7 @@ h2 {
 /* SKILLS SECTION */
 
 #skills {
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .skills-container {
@@ -248,7 +248,7 @@ h2 {
 /* PROJECTS SECTION */
 
 #projects {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 h4,
@@ -263,13 +263,14 @@ h4,
 .projects-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 100%;
 }
 
 #projects-sub {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
 
 .projects-content {
@@ -317,7 +318,7 @@ h4,
 /* CONTACT SECTION */
 
 #contact {
-    height: 100vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -402,6 +403,19 @@ h4,
     width: 100%;
 }
 
+/* FOOTER */
+
+footer {
+    border-top: solid #505048;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 5px 0px;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
@@ -430,7 +444,50 @@ h4,
     .text {
         width: 80%;
     }
+
+    .projects-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project1,
+    .project2,
+    .project3 {
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 40px;
+    } 
+
+    .project-text h4 {
+        text-align: center;
+    }
+
+    .project-text {
+        padding: 0;
+    }
   }
+
+@media only screen and (min-width: 737px) and (max-width: 768px) {
+    .projects-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        width: 60%;
+    }
+
+    .learn-more-button {
+        width: 70%;
+    }
+
+    .project-text {
+        align-items: center;
+    }
+}  
 
 @media only screen and (max-width: 736px) {
     .navigation-container {
@@ -505,6 +562,11 @@ h4,
     .contact-content {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
+    }
+
+    .contact-info {
+        padding: 0;
     }
 
     .social-media {
@@ -539,6 +601,16 @@ h4,
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07), 0 6px 20px 0 rgba(0,0,0,0.07);
         margin: auto;
     }
-
 }
 
+
+@media only screen and (min-width: 769px) and (max-width: 1630px) {
+    .project1,
+    .project2,
+    .project3 {
+        width: 25%;
+        margin-bottom: 40px;
+        padding: 20px;
+        flex-direction: column;
+    } 
+}
